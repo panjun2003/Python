@@ -277,7 +277,7 @@ flowchart LR
 
 第一题：3和5的倍数（Multiples of 3 or 5）
 
-
+![程序流程图](6.png.png)
 
 显示效果如下：
 
