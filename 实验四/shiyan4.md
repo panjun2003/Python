@@ -4,7 +4,7 @@
 
 学号： B20210302427
 
-姓名： 罗中威
+姓名： 潘俊
 
 Github地址：<https://github.com/panjun2003/python>
 
