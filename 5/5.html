@@ -1,0 +1,330 @@
+<!DOCTYPE html><html><head>
+      <title>5</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:///c:\Users\xdyyyyyyyyy\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.8.10\crossnote\dependencies\katex\katex.min.css">
+      
+      
+      <script type="text/javascript" src="file:///c:\Users\xdyyyyyyyyy\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.8.10\crossnote\dependencies\mermaid\mermaid.min.js" charset="UTF-8"></script>
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      
+<h1 id="实验五-python数据结构与数据模型">实验五 Python数据结构与数据模型 </h1>
+<p>班级： 21计科04</p>
+<p>学号： B20210302431</p>
+<p>姓名： 许顶阳</p>
+<p>Github地址：<a href="https://gitee.com/xdyyyyyy/python_course">https://gitee.com/xdyyyyyy/python_course</a></p>
+<p>CodeWars地址：<a href="https://www.codewars.com/users/xdyyyy">https://www.codewars.com/users/xdyyyy</a></p>
+<hr>
+<h2 id="实验目的">实验目的 </h2>
+<ol>
+<li>学习Python数据结构的高级用法</li>
+<li>学习Python的数据模型</li>
+</ol>
+<h2 id="实验环境">实验环境 </h2>
+<ol>
+<li>Git</li>
+<li>Python 3.10</li>
+<li>VSCode</li>
+<li>VSCode插件</li>
+</ol>
+<h2 id="实验内容和步骤">实验内容和步骤 </h2>
+<h3 id="第一部分">第一部分 </h3>
+<p>在<a href="https://www.codewars.com">Codewars网站</a>注册账号，完成下列Kata挑战：</p>
+<hr>
+<h4 id="第一题停止逆转我的单词">第一题：停止逆转我的单词 </h4>
+<p>难度： 6kyu</p>
+<p>编写一个函数，接收一个或多个单词的字符串，并返回相同的字符串，但所有5个或更多的字母单词都是相反的（就像这个Kata的名字一样）。传入的字符串将只由字母和空格组成。只有当出现一个以上的单词时，才会包括空格。<br>
+例如：</p>
+<pre data-role="codeBlock" data-info="python" class="language-python python"><code>spinWords<span class="token punctuation">(</span> <span class="token string">"Hey fellow warriors"</span> <span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> returns <span class="token string">"Hey wollef sroirraw"</span> 
+spinWords<span class="token punctuation">(</span> <span class="token string">"This is a test"</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> returns <span class="token string">"This is a test"</span> 
+spinWords<span class="token punctuation">(</span> <span class="token string">"This is another test"</span> <span class="token punctuation">)</span><span class="token operator">=</span><span class="token operator">&gt;</span> returns <span class="token string">"This is rehtona test"</span>
+</code></pre><p>代码提交地址：<br>
+<a href="https://www.codewars.com/kata/5264d2b162488dc400000001">https://www.codewars.com/kata/5264d2b162488dc400000001</a></p>
+<p>提示：</p>
+<ul>
+<li>利用str的split方法可以将字符串分为单词列表<br>
+例如：</li>
+</ul>
+<pre data-role="codeBlock" data-info="python" class="language-python python"><code>words <span class="token operator">=</span> <span class="token string">"hey fellow warrior"</span><span class="token punctuation">.</span>split<span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token comment"># words should be ['hey', 'fellow', 'warrior']</span>
+</code></pre><ul>
+<li>利用列表推导将长度大于等于5的单词反转(利用切片word[::-1])</li>
+<li>最后使用str的join方法连结列表中的单词。</li>
+</ul>
+<hr>
+<h4 id="第二题-发现离群的数find-the-parity-outlier">第二题： 发现离群的数(Find The Parity Outlier) </h4>
+<p>难度：6kyu</p>
+<p>给你一个包含整数的数组（其长度至少为3，但可能非常大）。该数组要么完全由奇数组成，要么完全由偶数组成，除了一个整数N。请写一个方法，以该数组为参数，返回这个 "离群 "的N。</p>
+<p>例如：</p>
+<pre data-role="codeBlock" data-info="python" class="language-python python"><code><span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">100</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">11</span><span class="token punctuation">,</span> <span class="token number">2602</span><span class="token punctuation">,</span> <span class="token number">36</span><span class="token punctuation">]</span>
+<span class="token comment"># Should return: 11 (the only odd number)</span>
+
+<span class="token punctuation">[</span><span class="token number">160</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">1719</span><span class="token punctuation">,</span> <span class="token number">19</span><span class="token punctuation">,</span> <span class="token number">11</span><span class="token punctuation">,</span> <span class="token number">13</span><span class="token punctuation">,</span> <span class="token operator">-</span><span class="token number">21</span><span class="token punctuation">]</span>
+<span class="token comment"># Should return: 160 (the only even number)</span>
+</code></pre><p>代码提交地址：<br>
+<a href="https://www.codewars.com/kata/5526fc09a1bbd946250002dc">https://www.codewars.com/kata/5526fc09a1bbd946250002dc</a></p>
+<hr>
+<h4 id="第三题-检测pangram">第三题： 检测Pangram </h4>
+<p>难度：6kyu</p>
+<p>pangram是一个至少包含每个字母一次的句子。例如，"The quick brown fox jumps over the lazy dog "这个句子就是一个pangram，因为它至少使用了一次字母A-Z（大小写不相关）。</p>
+<p>给定一个字符串，检测它是否是一个pangram。如果是则返回<code>True</code>，如果不是则返回<code>False</code>。忽略数字和标点符号。<br>
+代码提交地址：<br>
+<a href="https://www.codewars.com/kata/545cedaa9943f7fe7b000048">https://www.codewars.com/kata/545cedaa9943f7fe7b000048</a></p>
+<hr>
+<h4 id="第四题-数独解决方案验证">第四题： 数独解决方案验证 </h4>
+<p>难度：6kyu</p>
+<p>数独背景</p>
+<p>数独是一种在 9x9 网格上进行的游戏。游戏的目标是用 1 到 9 的数字填充网格的所有单元格，以便每一列、每一行和九个 3x3 子网格（也称为块）中的都包含数字 1 到 9。更多信息请访问：<a href="http://en.wikipedia.org/wiki/Sudoku">http://en.wikipedia.org/wiki/Sudoku</a></p>
+<p>编写一个函数接受一个代表数独板的二维数组，如果它是一个有效的解决方案则返回 true，否则返回 false。数独板的单元格也可能包含 0，这将代表空单元格。包含一个或多个零的棋盘被认为是无效的解决方案。棋盘总是 9 x 9 格，每个格只包含 0 到 9 之间的整数。</p>
+<p>代码提交地址：<br>
+<a href="https://www.codewars.com/kata/63d1bac72de941033dbf87ae">https://www.codewars.com/kata/63d1bac72de941033dbf87ae</a></p>
+<hr>
+<h4 id="第五题-疯狂的彩色三角形">第五题： 疯狂的彩色三角形 </h4>
+<p>难度： 2kyu</p>
+<p>一个彩色的三角形是由一排颜色组成的，每一排都是红色、绿色或蓝色。连续的几行，每一行都比上一行少一种颜色，是通过考虑前一行中的两个相接触的颜色而产生的。如果这些颜色是相同的，那么新的一行就使用相同的颜色。如果它们不同，则在新的一行中使用缺失的颜色。这个过程一直持续到最后一行，只有一种颜色被生成。</p>
+<p>例如：</p>
+<pre data-role="codeBlock" data-info="python" class="language-python python"><code>Colour here<span class="token punctuation">:</span>            G G        B G        R G        B R
+Becomes colour here<span class="token punctuation">:</span>     G          R          B          G
+</code></pre><p>一个更大的三角形例子：</p>
+<pre data-role="codeBlock" data-info="python" class="language-python python"><code>R R G B R G B B
+ R B R G B R B
+  G G B R G G
+   G R G B G
+    B B R R
+     B G R
+      R B
+       G
+</code></pre><p>你将得到三角形的第一行字符串，你的工作是返回最后的颜色，这将出现在最下面一行的字符串。在上面的例子中，你将得到 "RRGBRGBB"，你应该返回 "G"。<br>
+限制条件： 1 &lt;= length(row) &lt;= 10 ** 5<br>
+输入的字符串将只包含大写字母'B'、'G'或'R'。</p>
+<p>例如：</p>
+<pre data-role="codeBlock" data-info="python" class="language-python python"><code>triangle<span class="token punctuation">(</span><span class="token string">'B'</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token string">'B'</span>
+triangle<span class="token punctuation">(</span><span class="token string">'GB'</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token string">'R'</span>
+triangle<span class="token punctuation">(</span><span class="token string">'RRR'</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token string">'R'</span>
+triangle<span class="token punctuation">(</span><span class="token string">'RGBG'</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token string">'B'</span>
+triangle<span class="token punctuation">(</span><span class="token string">'RBRGBRB'</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token string">'G'</span>
+triangle<span class="token punctuation">(</span><span class="token string">'RBRGBRBGGRRRBGBBBGG'</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token string">'G'</span>
+</code></pre><p>代码提交地址：<br>
+<a href="https://www.codewars.com/kata/5a331ea7ee1aae8f24000175">https://www.codewars.com/kata/5a331ea7ee1aae8f24000175</a></p>
+<p>提示：请参考下面的链接，利用三进制的特点来进行计算。<br>
+<a href="https://stackoverflow.com/questions/53585022/three-colors-triangles">https://stackoverflow.com/questions/53585022/three-colors-triangles</a></p>
+<hr>
+<h3 id="第二部分">第二部分 </h3>
+<p>使用Mermaid绘制程序流程图</p>
+<p>安装VSCode插件：</p>
+<ul>
+<li>Markdown Preview Mermaid Support</li>
+<li>Mermaid Markdown Syntax Highlighting</li>
+</ul>
+<p>使用Markdown语法绘制你的程序绘制程序流程图（至少一个），Markdown代码如下：</p>
+<p><img src="Experiments\img\2023-08-05-22-00-00.png" alt="程序流程图"></p>
+<p>显示效果如下：</p>
+<div class="mermaid">flowchart LR
+    A[Start] --&gt; B{Is it?}
+    B --&gt;|Yes| C[OK]
+    C --&gt; D[Rethink]
+    D --&gt; B
+    B ----&gt;|No| E[End]
+</div><p>查看Mermaid流程图语法--&gt;<a href="https://mermaid.js.org/syntax/flowchart.html">点击这里</a></p>
+<p>使用Markdown编辑器（例如VScode）编写本次实验的实验报告，包括<a href="#%E5%AE%9E%E9%AA%8C%E8%BF%87%E7%A8%8B%E4%B8%8E%E7%BB%93%E6%9E%9C">实验过程与结果</a>、<a href="#%E5%AE%9E%E9%AA%8C%E8%80%83%E6%9F%A5">实验考查</a>和<a href="#%E5%AE%9E%E9%AA%8C%E6%80%BB%E7%BB%93">实验总结</a>，并将其导出为 <strong>PDF格式</strong> 来提交。</p>
+<h2 id="实验过程与结果">实验过程与结果 </h2>
+<p>请将实验过程与结果放在这里，包括：</p>
+<ul>
+<li><a href="#%E7%AC%AC%E4%B8%80%E9%83%A8%E5%88%86">第一部分 Codewars Kata挑战</a></li>
+<li><a href="#%E7%AC%AC%E4%BA%8C%E9%83%A8%E5%88%86">第二部分 使用Mermaid绘制程序流程图</a></li>
+</ul>
+<h4 id="第一题停止逆转我的单词-1">第一题：停止逆转我的单词 </h4>
+<p>python代码：<br>
+<img src="1-1.png" alt="Alt text"><br>
+显示效果如下:</p>
+<pre data-role="codeBlock" data-info="python" class="language-python python"><code><span class="token keyword keyword-def">def</span> <span class="token function">spin_words</span><span class="token punctuation">(</span>sentence<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token comment"># Your code goes here</span>
+    sentence <span class="token operator">=</span> sentence<span class="token punctuation">.</span>split<span class="token punctuation">(</span><span class="token string">" "</span><span class="token punctuation">)</span>
+    <span class="token keyword keyword-return">return</span> <span class="token string">" "</span><span class="token punctuation">.</span>join<span class="token punctuation">(</span><span class="token punctuation">[</span>i<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token keyword keyword-if">if</span> <span class="token builtin">len</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span> <span class="token operator">&gt;=</span> <span class="token number">5</span> <span class="token keyword keyword-else">else</span> i <span class="token keyword keyword-for">for</span> i <span class="token keyword keyword-in">in</span> sentence<span class="token punctuation">]</span><span class="token punctuation">)</span>
+</code></pre><h4 id="第二题-发现离群的数find-the-parity-outlier-1">第二题： 发现离群的数(Find The Parity Outlier) </h4>
+<p>python代码：<br>
+<img src="2-2.png" alt="Alt text"><br>
+显示效果如下：</p>
+<pre data-role="codeBlock" data-info="python" class="language-python python"><code><span class="token keyword keyword-def">def</span> <span class="token function">find_outlier</span><span class="token punctuation">(</span><span class="token builtin">int</span><span class="token punctuation">)</span><span class="token punctuation">:</span>   
+  odds <span class="token operator">=</span> <span class="token punctuation">[</span>x <span class="token keyword keyword-for">for</span> x <span class="token keyword keyword-in">in</span> <span class="token builtin">int</span> <span class="token keyword keyword-if">if</span> x<span class="token operator">%</span><span class="token number">2</span><span class="token operator">!=</span><span class="token number">0</span><span class="token punctuation">]</span>   
+  evens<span class="token operator">=</span> <span class="token punctuation">[</span>x <span class="token keyword keyword-for">for</span> x <span class="token keyword keyword-in">in</span> <span class="token builtin">int</span> <span class="token keyword keyword-if">if</span> x<span class="token operator">%</span><span class="token number">2</span><span class="token operator">==</span><span class="token number">0</span><span class="token punctuation">]</span>   
+  <span class="token keyword keyword-return">return</span> odds<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token keyword keyword-if">if</span> <span class="token builtin">len</span><span class="token punctuation">(</span>odds<span class="token punctuation">)</span><span class="token operator">&lt;</span><span class="token builtin">len</span><span class="token punctuation">(</span>evens<span class="token punctuation">)</span> <span class="token keyword keyword-else">else</span> evens<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span>
+</code></pre><h4 id="第三题-检测pangram-1">第三题： 检测Pangram </h4>
+<p>python代码：<br>
+<img src="3-1.png" alt="Alt text"><br>
+显示效果如下：</p>
+<pre data-role="codeBlock" data-info="python" class="language-python python"><code><span class="token comment"># Python3 program to</span>
+<span class="token comment"># Check if the string is pangram</span>
+<span class="token keyword keyword-import">import</span> string
+ 
+<span class="token keyword keyword-def">def</span> <span class="token function">is_pangram</span><span class="token punctuation">(</span><span class="token builtin">str</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    alphabet <span class="token operator">=</span> <span class="token string">"abcdefghijklmnopqrstuvwxyz"</span>
+    <span class="token keyword keyword-for">for</span> char <span class="token keyword keyword-in">in</span> alphabet<span class="token punctuation">:</span>
+        <span class="token keyword keyword-if">if</span> char <span class="token keyword keyword-not">not</span> <span class="token keyword keyword-in">in</span> <span class="token builtin">str</span><span class="token punctuation">.</span>lower<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+            <span class="token keyword keyword-return">return</span> <span class="token boolean">False</span>
+    <span class="token keyword keyword-return">return</span> <span class="token boolean">True</span>
+     
+<span class="token comment"># Driver code</span>
+string <span class="token operator">=</span> <span class="token string">'the quick brown fox jumps over the lazy dog'</span>
+<span class="token keyword keyword-if">if</span><span class="token punctuation">(</span>is_pangram<span class="token punctuation">(</span>string<span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token boolean">True</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword keyword-print">print</span><span class="token punctuation">(</span><span class="token string">"Yes"</span><span class="token punctuation">)</span>
+<span class="token keyword keyword-else">else</span><span class="token punctuation">:</span>
+    <span class="token keyword keyword-print">print</span><span class="token punctuation">(</span><span class="token string">"No"</span><span class="token punctuation">)</span>
+</code></pre><h4 id="第四题-数独解决方案验证-1">第四题： 数独解决方案验证 </h4>
+<p>python代码：<br>
+<img src="4-1.png" alt="Alt text"><br>
+显示效果如下：</p>
+<pre data-role="codeBlock" data-info="python" class="language-python python"><code><span class="token keyword keyword-def">def</span> <span class="token function">validate_sudoku</span><span class="token punctuation">(</span>board<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword keyword-if">if</span> check_lines<span class="token punctuation">(</span>board<span class="token punctuation">)</span> <span class="token keyword keyword-and">and</span> check_arrays<span class="token punctuation">(</span>board<span class="token punctuation">)</span> <span class="token keyword keyword-and">and</span> check_squares<span class="token punctuation">(</span>board<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword keyword-return">return</span> <span class="token boolean">True</span>
+    <span class="token keyword keyword-return">return</span> <span class="token boolean">False</span>
+    
+<span class="token keyword keyword-def">def</span> <span class="token function">check_square</span><span class="token punctuation">(</span>board<span class="token punctuation">,</span>a<span class="token punctuation">,</span>b<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    s <span class="token operator">=</span> <span class="token punctuation">(</span>board<span class="token punctuation">[</span>a<span class="token punctuation">]</span><span class="token punctuation">[</span>b<span class="token punctuation">:</span>b<span class="token operator">+</span><span class="token number">3</span><span class="token punctuation">]</span> <span class="token operator">+</span> board<span class="token punctuation">[</span>a<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">[</span>b<span class="token punctuation">:</span>b<span class="token operator">+</span><span class="token number">3</span><span class="token punctuation">]</span> <span class="token operator">+</span> board<span class="token punctuation">[</span>a<span class="token operator">+</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">[</span>b<span class="token punctuation">:</span>b<span class="token operator">+</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+    s<span class="token punctuation">.</span>sort<span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token keyword keyword-if">if</span> s <span class="token operator">==</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token number">6</span><span class="token punctuation">,</span><span class="token number">7</span><span class="token punctuation">,</span><span class="token number">8</span><span class="token punctuation">,</span><span class="token number">9</span><span class="token punctuation">]</span><span class="token punctuation">:</span>
+        <span class="token keyword keyword-return">return</span> <span class="token boolean">True</span>
+    <span class="token keyword keyword-return">return</span> <span class="token boolean">False</span>
+
+<span class="token keyword keyword-def">def</span> <span class="token function">check_lines</span><span class="token punctuation">(</span>board<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword keyword-for">for</span> i <span class="token keyword keyword-in">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token builtin">len</span><span class="token punctuation">(</span>board<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        l <span class="token operator">=</span> board<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token punctuation">]</span>
+        l<span class="token punctuation">.</span>sort<span class="token punctuation">(</span><span class="token punctuation">)</span>
+        <span class="token keyword keyword-if">if</span> l <span class="token operator">!=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token number">6</span><span class="token punctuation">,</span><span class="token number">7</span><span class="token punctuation">,</span><span class="token number">8</span><span class="token punctuation">,</span><span class="token number">9</span><span class="token punctuation">]</span><span class="token punctuation">:</span>
+            <span class="token keyword keyword-return">return</span> <span class="token boolean">False</span>
+    <span class="token keyword keyword-return">return</span> <span class="token boolean">True</span>
+    
+<span class="token keyword keyword-def">def</span> <span class="token function">check_arrays</span><span class="token punctuation">(</span>board<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    board <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">[</span>r<span class="token punctuation">[</span>col<span class="token punctuation">]</span> <span class="token keyword keyword-for">for</span> r <span class="token keyword keyword-in">in</span> board<span class="token punctuation">]</span> <span class="token keyword keyword-for">for</span> col <span class="token keyword keyword-in">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token builtin">len</span><span class="token punctuation">(</span>board<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">]</span>
+    <span class="token keyword keyword-return">return</span> check_lines<span class="token punctuation">(</span>board<span class="token punctuation">)</span>
+    
+<span class="token keyword keyword-def">def</span> <span class="token function">check_squares</span><span class="token punctuation">(</span>board<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword keyword-if">if</span> check_square<span class="token punctuation">(</span>board<span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">)</span> <span class="token keyword keyword-and">and</span> check_square<span class="token punctuation">(</span>board<span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">)</span> <span class="token keyword keyword-and">and</span> check_square<span class="token punctuation">(</span>board<span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">6</span><span class="token punctuation">)</span> <span class="token keyword keyword-and">and</span> check_square<span class="token punctuation">(</span>board<span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">)</span> <span class="token keyword keyword-and">and</span> check_square<span class="token punctuation">(</span>board<span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">)</span> <span class="token keyword keyword-and">and</span> check_square<span class="token punctuation">(</span>board<span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">6</span><span class="token punctuation">)</span> <span class="token keyword keyword-and">and</span> check_square<span class="token punctuation">(</span>board<span class="token punctuation">,</span><span class="token number">6</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">)</span> <span class="token keyword keyword-and">and</span> check_square<span class="token punctuation">(</span>board<span class="token punctuation">,</span><span class="token number">6</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">)</span> <span class="token keyword keyword-and">and</span> check_square<span class="token punctuation">(</span>board<span class="token punctuation">,</span><span class="token number">6</span><span class="token punctuation">,</span><span class="token number">6</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword keyword-return">return</span> <span class="token boolean">True</span>
+    <span class="token keyword keyword-return">return</span> <span class="token boolean">False</span>
+</code></pre><h4 id="第五题-疯狂的彩色三角形-1">第五题： 疯狂的彩色三角形 </h4>
+<p>python代码：<br>
+<img src="5-1.png" alt="Alt text"><br>
+显示效果如下：</p>
+<pre data-role="codeBlock" data-info="python" class="language-python python"><code>
+rules <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token string">'RR'</span><span class="token punctuation">:</span> <span class="token string">'R'</span><span class="token punctuation">,</span> <span class="token string">'GG'</span><span class="token punctuation">:</span> <span class="token string">'G'</span><span class="token punctuation">,</span> <span class="token string">'BB'</span><span class="token punctuation">:</span> <span class="token string">'B'</span><span class="token punctuation">,</span>
+         <span class="token string">'BG'</span><span class="token punctuation">:</span> <span class="token string">'R'</span><span class="token punctuation">,</span> <span class="token string">'RB'</span><span class="token punctuation">:</span> <span class="token string">'G'</span><span class="token punctuation">,</span> <span class="token string">'RG'</span><span class="token punctuation">:</span> <span class="token string">'B'</span><span class="token punctuation">,</span>
+         <span class="token string">'GB'</span><span class="token punctuation">:</span> <span class="token string">'R'</span><span class="token punctuation">,</span> <span class="token string">'BR'</span><span class="token punctuation">:</span> <span class="token string">'G'</span><span class="token punctuation">,</span> <span class="token string">'GR'</span><span class="token punctuation">:</span> <span class="token string">'B'</span><span class="token punctuation">}</span>
+
+<span class="token keyword keyword-from">from</span> math <span class="token keyword keyword-import">import</span> log
+
+<span class="token keyword keyword-def">def</span> <span class="token function">triangle</span><span class="token punctuation">(</span>row<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    n <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>row<span class="token punctuation">)</span>
+    <span class="token keyword keyword-if">if</span> n <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">:</span>
+        <span class="token keyword keyword-return">return</span> row
+    d <span class="token operator">=</span> n <span class="token operator">-</span> <span class="token number">3</span><span class="token operator">**</span><span class="token builtin">int</span><span class="token punctuation">(</span>log<span class="token punctuation">(</span>n<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+    <span class="token keyword keyword-return">return</span> rules<span class="token punctuation">[</span>triangle<span class="token punctuation">(</span>row<span class="token punctuation">[</span><span class="token punctuation">:</span>d<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token operator">+</span> triangle<span class="token punctuation">(</span>row<span class="token punctuation">[</span><span class="token operator">-</span>d<span class="token punctuation">:</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">]</span>
+</code></pre><p>使用Markdown语法绘制你的程序绘制程序流程图,Markdown代码如下：</p>
+<p>显示效果如下：<br>
+<img src="6-1.png" alt="Alt text"></p>
+<div class="mermaid">graph LR
+A(Start) --&gt; B(Input numbers)
+B --&gt; C[Check parity]
+C --&gt; |Even| D[Find odd number]
+C --&gt; |Odd| E[Find even number]
+D --&gt; F(Output odd number)
+E --&gt; F(Output even number)
+F --&gt; G(End)
+</div><p><strong>注意：不要使用截图，因为Markdown文档转换为Pdf格式后，截图会无法显示。</strong></p>
+<h2 id="实验考查">实验考查 </h2>
+<p>请使用自己的语言并使用尽量简短代码示例回答下面的问题，这些问题将在实验检查时用于提问和答辩以及实际的操作。</p>
+<ol>
+<li>集合（set）类型有什么特点？它和列表（list）类型有什么区别？</li>
+</ol>
+<pre data-role="codeBlock" data-info="" class="language-text text"><code>集合是一种无序的数据类型，它不保留元素的插入顺序。
+集合中的元素是唯一的，不允许重复。
+集合是可变的，你可以添加或删除元素。
+集合通常用于检查成员资格，去除重复元素，以及执行集合操作（如并集、交集、差集等）。
+区别：
+
+列表是有序的，可以包含重复元素；集合是无序的，不包含重复元素。
+列表使用方括号 [ ] 来定义，而集合使用花括号 { } 或 set() 来定义。
+列表支持索引，可以通过索引访问元素；集合不支持索引。
+列表保留元素的插入顺序，而集合不保留顺序。
+</code></pre><p>2.集合（set）类型主要有那些操作？</p>
+<pre data-role="codeBlock" data-info="" class="language-text text"><code>集合类型在许多编程语言中通常支持以下主要操作：
+
+添加元素：使用 add() 方法向集合中添加元素。
+删除元素：使用 remove() 方法删除指定元素，如果元素不存在会引发错误，或使用 discard() 方法删除元素，如果元素不存在不会引发错误。
+集合操作：可以执行集合操作，如并集、交集、差集等。
+成员检查：使用 in 运算符检查元素是否属于集合。
+获取集合大小：使用 len() 函数获取集合的大小。
+</code></pre><p>3.使用<code>*</code>操作符作用到列表上会产生什么效果？为什么不能使用<code>*</code>操作符作用到嵌套的列表上？使用简单的代码示例说明。</p>
+<pre data-role="codeBlock" data-info="" class="language-text text"><code>在Python中，* 操作符用于复制或重复列表。当你使用 * 操作符作用在列表上时，它会复制列表中的元素，将它们重复指定的次数。但 * 操作符不能直接用于嵌套的列表，因为它只复制了外层列表的引用，而不是递归复制内部的嵌套列表。如果你对嵌套列表使用 * 操作符，你会得到多个引用指向同一个内部列表，而不是多个独立的嵌套列表。
+</code></pre><ol start="4">
+<li>总结列表,集合，字典的解析（comprehension）的使用方法。使用简单的代码示例说明。</li>
+</ol>
+<pre data-role="codeBlock" data-info="" class="language-text text"><code>列表解析是一种用于快速创建新列表的方法。它允许你根据现有列表或可迭代对象创建新列表。
+集合解析与列表解析类似，但创建的是集合而不是列表。集合解析使用花括号 { }。
+字典解析用于创建字典。它允许你将键值对的表达式映射到字典中。
+</code></pre><h2 id="实验总结">实验总结 </h2>
+<p>总结一下这次实验你学习和使用到的知识，例如：编程工具的使用、数据结构、程序语言的语法、算法、编程技巧、编程思想。</p>
+
+      </div>
+      
+      
+    
+    
+    <script type="module">
+// TODO: If ZenUML gets integrated into mermaid in the future,
+//      we can remove the following lines.
+
+
+var MERMAID_CONFIG = ({"startOnLoad":false});
+if (typeof MERMAID_CONFIG !== 'undefined') {
+  MERMAID_CONFIG.startOnLoad = false
+  MERMAID_CONFIG.cloneCssStyles = false
+  MERMAID_CONFIG.theme = "default"
+}
+
+mermaid.initialize(MERMAID_CONFIG || {})
+if (typeof(window['Reveal']) !== 'undefined') {
+  function mermaidRevealHelper(event) {
+    var currentSlide = event.currentSlide
+    var diagrams = currentSlide.querySelectorAll('.mermaid')
+    for (var i = 0; i < diagrams.length; i++) {
+      var diagram = diagrams[i]
+      if (!diagram.hasAttribute('data-processed')) {
+        mermaid.init(null, diagram, ()=> {
+          Reveal.slide(event.indexh, event.indexv)
+        })
+      }
+    }
+  }
+  Reveal.addEventListener('slidetransitionend', mermaidRevealHelper)
+  Reveal.addEventListener('ready', mermaidRevealHelper)
+  await mermaid.run({
+    nodes: document.querySelectorAll('.mermaid')
+  })
+} else {
+  await mermaid.run({
+    nodes: document.querySelectorAll('.mermaid')
+  })
+}
+</script>
+    
+    
+    
+  
+    </body></html>
